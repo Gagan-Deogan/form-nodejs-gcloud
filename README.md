@@ -98,7 +98,23 @@ node app
 ```
 ![image](https://user-images.githubusercontent.com/51235172/92503365-c7029f80-f21e-11ea-9cdc-9eca99adccdb.png)
 ![image](https://user-images.githubusercontent.com/51235172/92503279-a4708680-f21e-11ea-9cb8-b28b20cc0378.png)  
-**Step 8: Next step is Deployment of you App. For this purpose Iam using Google cloud app Engine. Make your Account and setup billing. Then make project in https://console.cloud.google.com/. Go to app engine dashboard**
+**Step 8: Next step is Deployment of you App. For this purpose Iam using Google cloud app Engine. Make your Account and setup billing. Then make project in https://console.cloud.google.com/. Go to app engine dashboard create app engine instance and setup gcloud in your local machine. Create app.yaml file which specifies the app engine runtime. let deploy app using**
+![image](https://user-images.githubusercontent.com/51235172/92746040-83d03a00-f3a0-11ea-83f2-826a23d76316.png)  
+```sh
+$ gcloud app deploy
+```  
+Use this to locate your App
+```sh
+$ gcloud app browse
+``` 
+**Step 9: Lets Connect App with Database. Here Iam using Gcloud My-sql database. go to sql dashboard create a instance . I recommend to use this link->https://cloud.google.com/sql/docs/mysql/quickstart. AND use use this link->https://cloud.google.com/sql/docs/mysql/quickstart-proxy-test to connect gcloud sql database to localmachine for local testing **
+**Step 10: Create Database.js and make some changes in app.js**
+![image](https://user-images.githubusercontent.com/51235172/92748526-df9bc280-f3a2-11ea-90b5-f1d4c8bc034a.png)
+![image](https://user-images.githubusercontent.com/51235172/92748612-f3472900-f3a2-11ea-8cbf-022af8651722.png)  
+**Step 11: Change YOUR_CONNECTION and other details with your instances details.**  
+run app via node start.  
+##THANK YOU SO MUCH
+
 
 
 
