@@ -1,5 +1,5 @@
 # form-nodejs-gcloud
-# It a simple web application which help in understandind full stact development
+# It a simple web application which help in understandind full stack development
 **For Forntend**  
 1. HTML
 2. JS
